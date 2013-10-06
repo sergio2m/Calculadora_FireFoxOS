@@ -1,0 +1,12 @@
+{
+    "name":"Calculadora",
+    "launch_path" : "Calculadora.html",
+    "developer": {
+        "name":"Sergio Martínez",
+        "url":"http://revolucion.mobi"
+    },
+    "description":"Calculadoras",
+    "icons":{
+        "128":"/icon.png"
+    }
+}
