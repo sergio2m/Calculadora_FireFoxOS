@@ -1,8 +1,9 @@
+/* esto es un comentario */
 .numero{
-	background:#5555BB;
+	background: #5555BB;
 }
 body {
-	background:#552211;
+	background: url(../img/fondoPantalla.jpg);
 }
 
 table{
@@ -18,3 +19,11 @@ input{
 }
 .doble{
 	width: 120px;
+}
+.signo{
+	background: #FF5522;
+}
+
+.signo,.numero{
+	color: #FFFFFF;
+}
