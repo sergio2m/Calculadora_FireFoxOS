@@ -18,3 +18,11 @@ input{
 }
 .doble{
 	width: 120px;
+}
+.signo{
+	background: #FF5522;
+}
+
+.signo,.numero{
+	color: #FFFFFF;
+}
