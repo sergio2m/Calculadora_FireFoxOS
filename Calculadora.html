@@ -1,10 +1,30 @@
 <!DOCTYPE HTML>
+
 <html>
 	<head>
 		<title>Calculadora</title>
 		<!-- <link rel="Stylesheet" type="text/css" href="css/cssFormulario.css" media="screen">-->
 		<script type="text/javascript" src="js/calculadora.js">  
 		</script>
+		<style type="text/css">
+			<!--
+			table{
+				border-collapse: collapse;
+				border-spacing: 0px;
+				
+			}
+			input{
+				width: 60px; height: 60px;
+			}
+			#cuadroDigitos{
+				width: 240px;
+			}
+			.doble{
+				width: 120px;
+			}
+
+			-->
+		</style>
 	</head>
 	<body>
 		<noscript>
@@ -21,7 +41,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2">
+					<td class="doble" colspan="2">
 						<input type="button" value="exp" name="exp" id="exp" onclick="calculadora('exp');"/> 
 					</td>
 					<td>
@@ -86,11 +106,11 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2">
-						<input type="button" value="Pasar Pst" name="aPesetas" id="aPesetas" onclick="calculadora('aPesetas');"/> 
+					<td  colspan="2">
+						<input class="doble" type="button" value="Pasar Pst" name="aPesetas" id="aPesetas" onclick="calculadora('aPesetas');"/> 
 					</td>
-					<td colspan="2">
-						<input type="button" value="Pasar Euros" name="aEuros" id="aEuros" onclick="calculadora('aEuros');"/> 
+					<td class="doble" colspan="2">
+						<input  class="doble" type="button" value="Pasar Euros" name="aEuros" id="aEuros" onclick="calculadora('aEuros');"/> 
 					</td>
 				</tr>
 			</table>
