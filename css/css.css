@@ -4,3 +4,17 @@
 body {
 	background:#552211;
 }
+
+table{
+	border-collapse: collapse;
+	border-spacing: 0px;
+	
+}
+input{
+	width: 60px; height: 60px;
+}
+#cuadroDigitos{
+	width: 240px;
+}
+.doble{
+	width: 120px;
